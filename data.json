@@ -1,0 +1,16 @@
+{
+    "audio": [
+        {
+            "audioName": "Borderline",
+            "audioArtist": "Tame Impala",
+            "audioCover":"img/bg.jpg",
+            "audioFile":"audio/1.mp3"
+        },
+        {
+            "audioName": "Kostromin",
+            "audioArtist": "Моя Голова Винтом",
+            "audioCover":"img/bg.jpg",
+            "audioFile":"audio/2.mp3"
+        }
+    ]
+}

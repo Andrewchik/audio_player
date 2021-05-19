@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player app</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="music-player">
+        <div class="music-player__cover">
+            <img src="img/bg.jpg" alt="cover">
+        </div>
+        <audio class="music-player__audio" src="audio/1.mp3"></audio>
+        <div class="music-player__info">
+            <div class="audio-info">
+                <h4 class="audio-info__name">Borderline</h4>
+                <span class="audio-info__artist">Tame Impala</span>
+            </div>
+            <div class="audio-controls">
+                <button id="backward">
+                    <i class="fas fa-step-backward"></i>
+                </button>
+                <button id="play">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="forward">
+                    <i class="fas fa-step-forward"></i>
+                </button>
+            </div>
+            <div class="audio-progress">
+                <span style="width: 0%;"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
